@@ -15,18 +15,6 @@ The Caesar Cipher is a classical encryption technique where each letter in the p
 Here's a complete implementation of the Caesar Cipher with user interaction:
 
 ```python
-def caesar_cipher(text, shift, mode='encrypt'):
-    """
-    Encrypt or decrypt the text using the Caesar Cipher algorithm.
-
-    Args:
-    text (str): The text to be encrypted or decrypted.
-    shift (int): The number of positions to shift.
-    mode (str): 'encrypt' for encryption or 'decrypt' for decryption.
-
-    Returns:
-    str: The encrypted or decrypted text.
-    """
     result = []
     shift = shift % 26  # Ensure the shift is within 0-25
 
